@@ -1,0 +1,196 @@
+body {
+	position: fixed;
+	margin: 0;
+	background-color: #FFFFF0;
+	animation-name: color;
+	animation-iteration-count: infinite;
+  	animation-duration: 12s;
+  	animation-timing-function: ease-in-out, ease-in-out;
+
+}
+
+
+@keyframes spacing {
+	0% {letter-spacing: 5px;}
+
+	50% {letter-spacing: 200px;}
+
+	100% {letter-spacing: 5px;}
+}
+
+
+@keyframes color {
+	0% {background-color: #FFFFF0;}
+
+	50% {background-color: #800000;}
+
+	100% {background-color:  #FFFFF0;}
+}
+
+
+@keyframes bracket {
+		0% {color: #36454f;}
+
+	50% {color: #FF0000;}
+
+	100% {color:  #36454f;}
+}
+.container {
+	display: inline-flex;
+	color: #36454f;
+	position: relative;
+	left: 20px;
+			animation-name: bracket;
+		animation-iteration-count: infinite;
+  	animation-duration: 12s;
+	  animation-timing-function: ease-in-out, ease-in-out;
+}
+
+.bracket-1 {
+	line-height: 2;
+	font-size: 50px;
+	transform: skew(-25deg);
+	letter-spacing: 85px;
+	position: relative;
+	left: 20px;
+
+	
+}
+.bracket-1:hover {
+	color: 	#FF0000;
+animation-name: spacing;
+	animation-iteration-count: infinite;
+  	animation-duration: 12s;
+	  animation-timing-function: ease-in-out, ease-in-out;
+	
+}
+
+.bracket-2 {
+position: relative;
+	left: 20px;
+	line-height: 2;
+	font-size: 50px;
+	transform: skew(-25deg);
+	letter-spacing: 85px;
+	
+}
+.bracket-2:hover {
+		color: 	#FF0000;
+animation-name: spacing;
+	animation-iteration-count: infinite;
+  	animation-duration:12s;
+	  animation-timing-function: ease-in-out, ease-in-out;
+	
+}
+.bracket-3 {
+	position: relative;
+	left: 20px;
+	line-height: 2;
+	font-size: 50px;
+	transform: skew(-25deg);
+	letter-spacing: 85px;
+	
+}
+.bracket-3:hover {
+		color: 	#FF0000;
+animation-name: spacing;
+	animation-iteration-count: infinite;
+  	animation-duration:12s;
+	  animation-timing-function: ease-in-out, ease-in-out;
+	
+}
+.bracket-4 {
+	position: relative;
+	left: 20px;
+	line-height: 2;
+	font-size: 50px;
+	transform: skew(-25deg);
+	letter-spacing: 85px;
+	
+}
+.bracket-4:hover {
+		color: 	#FF0000;
+animation-name: spacing;
+	animation-iteration-count: infinite;
+  	animation-duration: 12s;
+	  animation-timing-function: ease-in-out, ease-in-out;
+	
+}
+
+.bracket-5 {
+position: relative;
+	left: 20px;
+	line-height: 2;
+	font-size: 50px;
+	transform: skew(-25deg);
+	letter-spacing: 85px;
+	
+}
+.bracket-5:hover {
+		color: 	#FF0000;
+animation-name: spacing;
+	animation-iteration-count: infinite;
+  	animation-duration: 12s;
+	  animation-timing-function: ease-in-out, ease-in-out;
+	
+}
+.bracket-6 {
+	position: relative;
+	left: 20px;
+	line-height: 2;
+	font-size: 50px;
+	transform: skew(-25deg);
+	letter-spacing: 85px;
+	
+}
+.bracket-6:hover {
+		color: 	#FF0000;
+animation-name: spacing;
+	animation-iteration-count: infinite;
+  	animation-duration: 12s;
+	  animation-timing-function: ease-in-out, ease-in-out;
+	
+}
+.bracket-7 {
+position: relative;
+	left: 20px;
+	line-height: 2;
+	font-size: 50px;
+	transform: skew(-25deg);
+	letter-spacing: 85px;
+	
+}
+.bracket-7:hover {
+		color: 	#FF0000;
+animation-name: spacing;
+	animation-iteration-count: infinite;
+  	animation-duration: 12s;
+	  animation-timing-function: ease-in-out, ease-in-out;
+	
+}
+.container-2 {
+	display: inline-flex;
+	position: relative;
+	top: 250px;
+	color: #36454f;
+		position: relative;
+	left: 20px;
+			animation-name: bracket;
+		animation-iteration-count: infinite;
+  	animation-duration: 12s;
+	  animation-timing-function: ease-in-out, ease-in-out;
+}
+
+.container-3 {
+	display: inline-flex;
+	position: relative;
+	top: 500px;
+	color: #36454f;
+		position: relative;
+	left: 20px;
+			animation-name: bracket;
+		animation-iteration-count: infinite;
+  	animation-duration: 12s;
+	  animation-timing-function: ease-in-out, ease-in-out;
+}
+
